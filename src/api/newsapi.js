@@ -2,7 +2,7 @@ import { apiDomain, apiKey } from './env';
 
 const headers = {
     'Accept': 'application/json',
-    'Bearer': 'Bearer ' + apiKey
+    'Authorization': 'Bearer ' + apiKey
 }
 
 const axios = require('axios');

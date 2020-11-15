@@ -1,0 +1,39 @@
+.media {
+    width: 100%;
+    display: flex;
+    margin: 1rem;
+    border: 1px solid $color-gray;
+    border-radius: 5px;
+    position: relative;
+
+    &__header {
+        width: 50%;
+        height: 20rem;
+    }
+
+    &__body {
+        width: 100%;
+        padding: .5rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+
+    &__img {
+        width: 30rem;
+        height: 100%;
+        border-radius: 5px 0 0 5px;
+        object-fit: cover;
+    }
+
+    &__author {
+        position: absolute;
+        margin: .6rem;
+        padding: .5rem .8rem;
+        background-color: $color-gray-dark;
+        color: $color-white;
+        font-size: .8rem;
+        border-radius: 3px;
+        letter-spacing: 1px;
+    }
+}

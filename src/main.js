@@ -1,10 +1,10 @@
-import Vue from 'vue'
-import App from './app/App.vue'
-import router from './app/router'
+import Vue from 'vue';
+import App from './app/App.vue';
+import router from './app/router';
 
 import '@/app/scss/main.scss';
 
-Vue.config.productionTip = false
+Vue.config.productionTip = false;
 
 import { newsApi } from './api';
 Vue.prototype.$news = newsApi;
